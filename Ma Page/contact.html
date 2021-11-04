@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Martin DUMAIS</title>
+    <link rel="shortcut" href="./photo_martin.png" alt="MD" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Accueil </a>
+        <a href="biographie.html">Biographie </a>
+        <a href="services.html">Service </a>
+        <a href="tarifs.html">Tarifs </a>
+        <a href="contact.html">Contacts</a>
+      </nav>
+      <h1>Vous voulez nous contacter ?</h1>
+      <h4>
+        <p>
+          Remplissez ce formulaire en mettant votre message. Nous vous
+          répondrons au plus vite.
+        </p>
+      </h4>
+    </header>
+    <section>
+      <form action="">
+        <label for="nom">Nom </label>
+        <input
+          type="text"
+          id="nom"
+          name="prenom"
+          placeholder="Entrer votre prénom"
+        />
+        <label for="Age">Age</label>
+        <input type="Number" id="Age" name="Age" value="18" min="15" max="99" />
+        <br /><br />
+        <input type="radio" name="client" id="o" checked /><label for="o"
+          >Je suis déjà client</label
+        >
+        <input type="radio" name="prospect" id="n" ; /><label for="n"
+          >Je ne suis pas encore client</label
+        ><br /><br /><br />
+
+        <label for="sujet">Objet: </label
+        ><select name="" id="sujet">
+          <option value="Demande d'informations">Demande d'informations</option>
+          <option selected value="Demande de services">
+            Demande de services
+          </option>
+          <option value="Service après vente">Service après vente</option>
+          <option value="Réclamation">Réclamation</option>
+        </select>
+        <br /><br />
+        <div class="rep"></div>
+        <label for="msg"> Contenu </label><br />
+        <textarea
+          name=""
+          id="msg"
+          cols="100"
+          rows="10"
+          aria-valuemax="10"
+          placeholder="Ecrivez votre message"
+        ></textarea>
+        <br />
+        <div>
+          <br /><input type="checkbox" name="check" id="ok" />
+          <label for="ok"> J'accepte de transmettres mes données </label><br />
+          <input type="checkbox" name="check" id="rgpd" />
+          <label for="rgpd"
+            >J'accepte que mes données soient conservées pendant 1 an pour toute
+            prise de contact.</label
+          >
+        </div>
+
+        <input type="submit" />
+      </form>
+      <br />
+      <p>
+        Sinon, écrivez-nous directement depuis votre boite
+        <a href="mailto:dumais21@yahoo.fr">Cliquez-ci</a>
+      </p>
+      <br />
+      <p>Merci !</p>
+    </section>
+
+    <footer>&#169; Tous droits réservés!</footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
