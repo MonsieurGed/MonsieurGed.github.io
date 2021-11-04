@@ -1,0 +1,156 @@
+/* @import url("https://fonts.googleapis.com/css2? family=Crimson+Text:wght@600&display=swap"); */
+
+* {
+  padding: 2px;
+  margin: 3px;
+  background: url(./digital1.png.jpg) fixed right/cover;
+  /* credit photo: https://pixabay.com/fr/illustrations/r%c3%a9seau-l-internet-la-technologie-4851079/ */
+  color: white;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* height: 300vh;
+  width: 100%; */
+}
+
+button {
+  border-radius: 50%;
+  position: relative;
+  /* color:teal */
+  background-color: blue;
+  width: 8rem;
+  height: 2rem;
+}
+
+h1 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: 2px 0 0 rgba(70, 135, 255, 0.596);
+  position: absolute;
+  /* height: 50%; */
+  width: 100%;
+  top: 40%;
+  /* right: 50%; */
+  cursor: all-scroll;
+}
+
+h2 {
+  color: rgb(0, 195, 255);
+}
+
+h3 {
+  font-family: "Crimson Text", Georgia;
+  text-align: center;
+  color: rgb(197, 175, 175);
+  text-shadow: 3px 0 0 black;
+  cursor: pointer;
+}
+h4 {
+  position: absolute;
+  width: 100%;
+  top: 75%;
+}
+header {
+  text-align: center;
+  position: relative;
+  height: 200px;
+  width: 100%;
+}
+nav {
+  /* position: absolute; */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  top: 0%;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  position: absolute;
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+  width: 20%;
+}
+
+footer {
+  text-align: center;
+}
+section {
+  border: 1px solid;
+  border-radius: 30px;
+  padding: 10px;
+  /* background: white; */
+  /* position: relative; */
+}
+p {
+  text-align: justify;
+  background: rgb(79, 177, 216);
+  color: black;
+  border: 1px solid;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.box {
+  border: 1px solid skyblue;
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: 5px 10px 50px rgba(248, 11, 11, 0.623);
+  z-index: 1;
+}
+span {
+  display: flex;
+  /* width: auto;
+  top: 100%; */
+  position: relative;
+  /* width: 40%; */
+  /* left: 10%; */
+}
+
+.boite {
+  border: 1px solid skyblue;
+  padding: 10px;
+  border-radius: 30px;
+}
+div {
+  position: relative;
+  /* width: 10%; */
+}
+
+/* p::selection {
+  cursor: grab;
+} */
+.table {
+  height: 10px;
+  width: 100%;
+  /* background: cornflowerblue; */
+  border: cadetblue solid 1px;
+}
+/* .thead {
+  height: 10px;
+  width: 10%;
+  background: red;
+} */
+.tbody {
+  height: 10px;
+  width: 10%;
+  background: green;
+}
+.td {
+  height: 10px;
+  width: 10%;
+  background: rgba(0, 0, 0, 0.541);
+  border: cadetblue solid 1px;
+}
+.th {
+  height: 10px;
+  width: 10%;
+  border: cadetblue solid 1px;
+  background: rgba(255, 255, 255, 0.294);
+}
